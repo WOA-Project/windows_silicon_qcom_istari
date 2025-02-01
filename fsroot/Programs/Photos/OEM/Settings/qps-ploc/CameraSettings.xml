@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CameraSettings>
+   <Configuration Mode="still" Sensor="rear">
+    <!-- REQUIRED: Setting for Resolution -->
+    <UserSetting DisplayName="Resolution" PropertyGuid="{6B79B6F4-886E-43E8-B5A6-A6F6E5DB81CF}">
+      <Value DisplayName="640x480" Size="640,480"/>
+      <Value DisplayName="800x600" Size="800,600"/>
+      <Value DisplayName="1024x768" Size="1024,768"/>
+      <Value DisplayName="1280x720" Size="1280,720"/>
+      <Value DisplayName="2048x1536" Size="2048,1536"/>
+      <Value DisplayName="3MP" Size="2048,1536"/>
+      <Value DisplayName="5MP" Size="2592,1944"/>
+      <Value DisplayName="8MP" Size="3264,2448"/>
+      <Value DisplayName="12MP" Size="4000,3000"/>
+      <Value DisplayName="13MP" Size="4160,3120" Isdefault="true"/>
+    </UserSetting>
+    <UserSetting DisplayName="Scene mode" PropertyGuid="{e1bf1fe2-fe3e-3349-8bc2-0F66112023BB}">
+      <Value DisplayName="Auto" DWORD="1" Isdefault="true"/>
+      <Value DisplayName="Portrait" DWORD="3"/>
+      <Value DisplayName="Sport" DWORD="4"/>
+      <Value DisplayName="Snow" DWORD="5"/>
+      <Value DisplayName="Night" DWORD="6"/>
+      <Value DisplayName="Beach" DWORD="7"/>
+      <Value DisplayName="Sunset" DWORD="8"/>
+      <Value DisplayName="Candlelight" DWORD="9"/>
+      <Value DisplayName="Landscape" DWORD="10"/>
+      <Value DisplayName="Backlight" DWORD="12"/>
+    </UserSetting>
+    <UserSetting DisplayName="ISO" PropertyGuid="{72556d53-52de-c449-8e6f-73a2b83eb8fb}">
+      <Value DisplayName="Auto" IsDefault="true"/>
+      <Value DisplayName="100" DWORD="100"/>
+      <Value DisplayName="200" DWORD="200"/>
+      <Value DisplayName="400" DWORD="400"/>
+      <Value DisplayName="800" DWORD="800"/>
+      <Value DisplayName="1600" DWORD="1600"/>
+      <Value DisplayName="3200" DWORD="3200"/>
+    </UserSetting>
+    <UserSetting DisplayName="Exposure compensation" PropertyGuid="{a95618e3-5f2c-e744-b0fe-59e0a691a699}">
+      <Value DisplayName="0" LONG="0" Isdefault="true"/>
+      <Value DisplayName="12" LONG="12"/>
+      <Value DisplayName="10" LONG="10"/>
+      <Value DisplayName="8" LONG="8"/>
+      <Value DisplayName="6" LONG="6"/>
+      <Value DisplayName="4" LONG="4"/>
+      <Value DisplayName="2" LONG="2"/>
+      <Value DisplayName="-2" LONG="-2"/>
+      <Value DisplayName="-4" LONG="-4"/>
+      <Value DisplayName="-6" LONG="-6"/>
+      <Value DisplayName="-8" LONG="-8"/>
+      <Value DisplayName="-10" LONG="-10"/>
+      <Value DisplayName="-12" LONG="-12"/>
+     </UserSetting>
+    <UserSetting DisplayName="White balance" PropertyGuid="{f1a5c7d4-f090-ce40-9b91-ee84011ff465}">
+      <Value DisplayName="Auto" IsDefault="true"/>
+      <Value DisplayName="Cloudy" DWORD="1"/>
+      <Value DisplayName="Daylight" DWORD="2"/>
+      <Value DisplayName="Flash" DWORD="3"/>
+      <Value DisplayName="Fluorescent" DWORD="4"/>
+      <Value DisplayName="Tungsten" DWORD="5"/>
+      <Value DisplayName="Candlelight" DWORD="6"/>
+    </UserSetting>
+    <UserSetting DisplayName="Saturation" PropertyGuid="{8C3B09A7-5B4F-4f2d-836A-995118FE1AE3}">
+        <Value DisplayName="100" DWORD="100" Isdefault="true"/>
+        <Value DisplayName="0" DWORD="0"/>
+        <Value DisplayName="50" DWORD="50"/>
+        <Value DisplayName="150" DWORD="150"/>
+        <Value DisplayName="200" DWORD="200"/>
+    </UserSetting>
+    <UserSetting DisplayName="Sharpness" PropertyGuid="{98FBFCBD-6DA7-4715-8FEF-B3F0B570FD14}">
+        <Value DisplayName="0" DWORD="0" Isdefault="true"/>
+        <Value DisplayName="2000" DWORD="2000"/>
+        <Value DisplayName="4000" DWORD="4000"/>
+        <Value DisplayName="6000" DWORD="6000"/>
+        <Value DisplayName="8000" DWORD="8000"/>
+        <Value DisplayName="10000" DWORD="10000"/>
+        <Value DisplayName="-2000" DWORD="-2000"/>
+        <Value DisplayName="-4000" DWORD="-4000"/>
+        <Value DisplayName="-6000" DWORD="-6000"/>
+        <Value DisplayName="-8000" DWORD="-8000"/>
+        <Value DisplayName="-10000" DWORD="-10000"/>
+    </UserSetting>
+    <UserSetting DisplayName="AntiBanding" PropertyGuid="{6C230235-0E37-4203-8C90-0E322F4C38FD}">
+        <Value DisplayName="Off" DWORD="0" Isdefault="true"/>
+        <Value DisplayName="50Hz" DWORD="1"/>
+        <Value DisplayName="60Hz" DWORD="2"/>
+        <Value DisplayName="Auto" DWORD="3"/>
+    </UserSetting> 
+    <UserSetting DisplayName="RedEye reduction" PropertyGuid="{67A8B284-EAF1-4226-B560-BB9ACA2F3473}">
+        <Value DisplayName="Off" DWORD="0" Isdefault="true"/>
+        <Value DisplayName="On" DWORD="1"/>
+    </UserSetting> 
+    <UserSetting DisplayName="ExposureMetering" PropertyGuid="{55A0BFF7-4739-4138-93D9-A884569CDD3E}">
+        <Value DisplayName="FrameAverage" DWORD="1"/>
+        <Value DisplayName="CenterWeighted" DWORD="2" Isdefault="true"/>
+        <Value DisplayName="CenterSpot" DWORD="3"/>
+    </UserSetting> 
+    <UserSetting DisplayName="ImageEffects" PropertyGuid="{B2C85200-E450-4694-91B0-55E2D3C75471}">
+        <Value DisplayName="Off" DWORD="0" Isdefault="true"/>
+        <Value DisplayName="CBCROFFSET" DWORD="1"/>
+        <Value DisplayName="MONO" DWORD="2"/>
+        <Value DisplayName="Negative" DWORD="3"/>
+        <Value DisplayName="Sepia" DWORD="4"/>
+        <Value DisplayName="Solarize" DWORD="5"/>
+        <Value DisplayName="Emboss" DWORD="6"/>
+        <Value DisplayName="Sketch" DWORD="7"/>
+        <Value DisplayName="Neon" DWORD="8"/>
+    </UserSetting>
+    <UserSetting DisplayName="SkinTone" PropertyGuid="{DA69C6DD-CF53-4d72-99DC-785A8C4D52A7}">
+        <Value DisplayName="0" DWORD="0" Isdefault="true"/>
+        <Value DisplayName="100" DWORD="100"/>
+        <Value DisplayName="-100" DWORD="-100"/>
+    </UserSetting>
+    <UserSetting DisplayName="Hue" PropertyGuid="{4724D621-443A-4f49-B5D5-EF2A427BB13A}">
+        <Value DisplayName="0" DWORD="0" Isdefault="true"/>
+        <Value DisplayName="20000" DWORD="20000"/>
+        <Value DisplayName="40000" DWORD="40000"/>
+        <Value DisplayName="60000" DWORD="60000"/>
+        <Value DisplayName="-20000" DWORD="-20000"/>
+        <Value DisplayName="-40000" DWORD="-40000"/>
+        <Value DisplayName="-60000" DWORD="-60000"/>
+    </UserSetting>
+    <UserSetting DisplayName="Brightness" PropertyGuid="{c6e13360-30ac-11d0-a18c-00a0c9118956}">
+        <Value DisplayName="0" DWORD="0" Isdefault="true"/>
+        <Value DisplayName="2000" DWORD="2000"/>
+        <Value DisplayName="4000" DWORD="4000"/>
+        <Value DisplayName="6000" DWORD="6000"/>
+        <Value DisplayName="8000" DWORD="8000"/>
+        <Value DisplayName="10000" DWORD="10000"/>
+        <Value DisplayName="-2000" DWORD="-2000"/>
+        <Value DisplayName="-4000" DWORD="-4000"/>
+        <Value DisplayName="-6000" DWORD="-6000"/>
+        <Value DisplayName="-8000" DWORD="-8000"/>
+        <Value DisplayName="-10000" DWORD="-10000"/>
+    </UserSetting>
+    <UserSetting DisplayName="Contrast" PropertyGuid="{28004823-8274-4ade-94BC-1CC982DD4360}">
+        <Value DisplayName="100" DWORD="100" Isdefault="true"/>
+        <Value DisplayName="1000" DWORD="1000"/>
+        <Value DisplayName="2000" DWORD="2000"/>
+        <Value DisplayName="3000" DWORD="3000"/>
+        <Value DisplayName="4000" DWORD="4000"/>
+        <Value DisplayName="5000" DWORD="5000"/>
+        <Value DisplayName="6000" DWORD="6000"/>
+        <Value DisplayName="7000" DWORD="7000"/>
+        <Value DisplayName="8000" DWORD="8000"/>
+        <Value DisplayName="9000" DWORD="9000"/>
+        <Value DisplayName="10000" DWORD="10000"/>
+    </UserSetting>
+    <UserSetting DisplayName="Focus Assist Light" PropertyGuid="{b3fe1fd7-91d9-8748-a770-455ca8789103}">  
+        <Value DisplayName="On" DWORD="1" Isdefault="true"/>  
+        <Value DisplayName="Off" DWORD="0"/>  
+    </UserSetting>
+   </Configuration>
+
+    <Configuration Mode="still" Sensor="front">
+      <!-- REQUIRED: Setting for Resolution -->
+      <UserSetting DisplayName="Resolution" PropertyGuid="{6B79B6F4-886E-43E8-B5A6-A6F6E5DB81CF}">
+        <Value DisplayName="1920 x 1080" Size="1920,1080" Isdefault="true"/>
+        <Value DisplayName="1280 x 720" Size="1280,720"/>
+        <Value DisplayName="640 x 480" Size="640,480"/>
+      </UserSetting>
+    <UserSetting DisplayName="Scene mode" PropertyGuid="{e1bf1fe2-fe3e-3349-8bc2-0F66112023BB}">
+      <Value DisplayName="Auto" DWORD="1" Isdefault="true"/>
+      <Value DisplayName="Portrait" DWORD="3"/>
+      <Value DisplayName="Sport" DWORD="4"/>
+      <Value DisplayName="Snow" DWORD="5"/>
+      <Value DisplayName="Night" DWORD="6"/>
+      <Value DisplayName="Beach" DWORD="7"/>
+      <Value DisplayName="Sunset" DWORD="8"/>
+      <Value DisplayName="Candlelight" DWORD="9"/>
+      <Value DisplayName="Backlight" DWORD="12"/>
+    </UserSetting>
+    <UserSetting DisplayName="ISO" PropertyGuid="{72556d53-52de-c449-8e6f-73a2b83eb8fb}">
+      <Value DisplayName="Auto" IsDefault="true"/>
+      <Value DisplayName="100" DWORD="100"/>
+      <Value DisplayName="200" DWORD="200"/>
+      <Value DisplayName="400" DWORD="400"/>
+      <Value DisplayName="800" DWORD="800"/>
+      <Value DisplayName="1600" DWORD="1600"/>
+      <Value DisplayName="3200" DWORD="3200"/>
+    </UserSetting>
+    <UserSetting DisplayName="Exposure compensation" PropertyGuid="{a95618e3-5f2c-e744-b0fe-59e0a691a699}">
+      <Value DisplayName="0" LONG="0" Isdefault="true"/>
+      <Value DisplayName="12" LONG="12"/>
+      <Value DisplayName="10" LONG="10"/>
+      <Value DisplayName="8" LONG="8"/>
+      <Value DisplayName="6" LONG="6"/>
+      <Value DisplayName="4" LONG="4"/>
+      <Value DisplayName="2" LONG="2"/>
+      <Value DisplayName="-2" LONG="-2"/>
+      <Value DisplayName="-4" LONG="-4"/>
+      <Value DisplayName="-6" LONG="-6"/>
+      <Value DisplayName="-8" LONG="-8"/>
+      <Value DisplayName="-10" LONG="-10"/>
+      <Value DisplayName="-12" LONG="-12"/>
+     </UserSetting>
+    <UserSetting DisplayName="White Balance" PropertyGuid="{f1a5c7d4-f090-ce40-9b91-ee84011ff465}">
+      <Value DisplayName="Auto" IsDefault="true"/>
+      <Value DisplayName="Cloudy" DWORD="1"/>
+      <Value DisplayName="Daylight" DWORD="2"/>
+      <Value DisplayName="Flash" DWORD="3"/>
+      <Value DisplayName="Fluorescent" DWORD="4"/>
+      <Value DisplayName="Tungsten" DWORD="5"/>
+      <Value DisplayName="Candlelight" DWORD="6"/>
+    </UserSetting> 
+    </Configuration>
+
+    <Configuration Mode="video" Sensor="rear">
+      <!-- REQUIRED: Setting for Resolution -->
+      <UserSetting DisplayName="Resolution" PropertyGuid="{7D82A69B-FFCF-4269-BDAA-DCBD433BDEA5}">
+        <Value DisplayName="640 x 480" Size="640,480"/>
+        <Value DisplayName="720p" Size="1280,720" />
+        <Value DisplayName="1080p" Size="1920,1080" Isdefault="true" />
+        <Value DisplayName="1440p" Size="2560,1440" />
+		<Value DisplayName="UHD" Size="3840,2160" />
+      </UserSetting>
+      <UserSetting DisplayName="Hardware Video Stabilization" PropertyGuid="{2E3C000E-88A6-4503-B492-9D8C9C6EDA89}">
+        <Value DisplayName="OFF" DWORD="0" Isdefault="true"/>
+        <Value DisplayName="ON" DWORD="1"/>
+      </UserSetting>
+    <UserSetting DisplayName="ISO" PropertyGuid="{72556d53-52de-c449-8e6f-73a2b83eb8fb}">
+      <Value DisplayName="Auto" IsDefault="true"/>
+      <Value DisplayName="100" DWORD="100"/>
+      <Value DisplayName="200" DWORD="200"/>
+      <Value DisplayName="400" DWORD="400"/>
+      <Value DisplayName="800" DWORD="800"/>
+      <Value DisplayName="1600" DWORD="1600"/>
+      <Value DisplayName="3200" DWORD="3200"/>
+    </UserSetting>
+    </Configuration>
+
+    <Configuration Mode="video" Sensor="front">
+      <!-- REQUIRED: Setting for Resolution -->
+      <UserSetting DisplayName="Resolution" PropertyGuid="{7D82A69B-FFCF-4269-BDAA-DCBD433BDEA5}">
+        <Value DisplayName="720p" Size="1280,720" Isdefault="true"/>
+        <Value DisplayName="640 x 480" Size="640,480"/>
+      </UserSetting>
+      <UserSetting DisplayName="Hardware Video Stabilization" PropertyGuid="{2E3C000E-88A6-4503-B492-9D8C9C6EDA89}">
+        <Value DisplayName="OFF" DWORD="0" Isdefault="true"/>
+    <Value DisplayName="ON" DWORD="1"/>
+      </UserSetting>
+    <UserSetting DisplayName="ISO" PropertyGuid="{72556d53-52de-c449-8e6f-73a2b83eb8fb}">
+      <Value DisplayName="Auto" IsDefault="true"/>
+      <Value DisplayName="100" DWORD="100"/>
+      <Value DisplayName="200" DWORD="200"/>
+      <Value DisplayName="400" DWORD="400"/>
+      <Value DisplayName="800" DWORD="800"/>
+      <Value DisplayName="1600" DWORD="1600"/>
+      <Value DisplayName="3200" DWORD="3200"/>
+    </UserSetting>
+    </Configuration>
+</CameraSettings>

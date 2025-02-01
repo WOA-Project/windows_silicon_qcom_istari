@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<Data>
+  <Table Id="Control">
+    <ParameterTypes>
+      <ParameterType Name="ControlPath">String</ParameterType>
+      <ParameterType Name="DataOnSim">UINT</ParameterType>
+      <ParameterType Name="MajorVersion">UINT</ParameterType>
+      <ParameterType Name="MinorVersion">UINT</ParameterType>
+      <ParameterType Name="DriverCaps">UINT</ParameterType>
+    </ParameterTypes>
+    <Row>
+      <Parameter Name="ControlPath">MBBUIO</Parameter>
+      <Parameter Name="DataOnSim">1</Parameter>
+      <Parameter Name="MajorVersion">2</Parameter>
+      <Parameter Name="MinorVersion">102</Parameter>
+      <Parameter Name="DriverCaps">0</Parameter>
+    </Row>
+  </Table>
+  <Table Id="Data">
+    <ParameterTypes>
+      <ParameterType Name="HTTPDownload">String</ParameterType>
+      <ParameterType Name="HTTPUpload">String</ParameterType>
+      <ParameterType Name="IcmpPing">String</ParameterType>
+    </ParameterTypes>
+    <Row>
+      <Parameter Name="HTTPDownload">uploadtestserver.herokuapp.com</Parameter>
+      <Parameter Name="HTTPUpload">uploadtestserver.herokuapp.com</Parameter>
+      <Parameter Name="IcmpPing">8.8.8.8</Parameter>
+      <Parameter Name="IcmpPingv6">ipv6.google.com</Parameter>
+    </Row>
+  </Table>
+  <Table Id="RIL">
+    <ParameterTypes>
+      <ParameterType Name="IndiaDestPhoneNumber1">String</ParameterType>
+      <ParameterType Name="IndiaDestPhoneNumber2">String</ParameterType>
+      <ParameterType Name="USDestPhoneNumber1">String</ParameterType>
+      <ParameterType Name="USDestPhoneNumber2">String</ParameterType>
+      <ParameterType Name="CallConnectedTime">UINT</ParameterType>
+      <ParameterType Name="PreferredSystemTypesSim1">String</ParameterType>
+      <ParameterType Name="PreferredSystemTypesSim2">String</ParameterType>
+      <ParameterType Name="DestinationAddressForSMS">String</ParameterType>
+      <ParameterType Name="ShortMessage">String</ParameterType>
+    </ParameterTypes>
+    <Row>
+      <Parameter Name="IndiaDestPhoneNumber1">08039374656</Parameter>
+      <Parameter Name="IndiaDestPhoneNumber2">08039374656</Parameter>
+      <Parameter Name="USDestPhoneNumber1">18582303705</Parameter>
+      <Parameter Name="USDestPhoneNumber2">18582303705</Parameter>
+      <Parameter Name="CallConnectedTime">60000</Parameter>
+      <Parameter Name="PreferredSystemTypesSim1">UMTS</Parameter>
+      <Parameter Name="PreferredSystemTypesSim2">GSM</Parameter>
+      <Parameter Name="DestinationAddressForSMS">9886180601</Parameter>
+      <Parameter Name="ShortMessage">Windows Phone SMS testing!</Parameter>
+    </Row>
+  </Table>
+  <APNTable>
+    <!-- Airtel India -->
+    <CountryCode MCCMNC="40445">
+      <APNType Name="InternetAPN">
+        <Title>Airtel</Title>
+        <APN>airtelgprs.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Airtel</Title>
+        <APN>airtellive.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv6</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Airtel</Title>
+        <APN>airtelgprs.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Airtel</Title>
+        <APN>airtelgprs.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType></IPType>
+      </APNType>
+      <APNType Name="MMSAPN">
+        <Title>Airtel</Title>
+        <APN>airtelmms.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <WAPGatewayURL></WAPGatewayURL>
+        <WAPGatewayPort></WAPGatewayPort>
+        <MMSCURL></MMSCURL>
+        <MMSCPort></MMSCPort>
+        <MaxMMSSize></MaxMMSSize>
+        <IPType></IPType>
+      </APNType>
+    </CountryCode>
+    <!-- Vodafone India -->
+    <CountryCode MCCMNC="40486">
+      <APNType Name="InternetAPN">
+        <Title>Vodafone IN</Title>
+        <APN>www</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Vodafone IN</Title>
+        <APN>www</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Vodafone IN</Title>
+        <APN>www</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Vodafone IN</Title>
+        <APN>www</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="MMSAPN">
+        <Title>Vodafone IN</Title>
+        <APN>www</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <WAPGatewayURL></WAPGatewayURL>
+        <WAPGatewayPort></WAPGatewayPort>
+        <MMSCURL></MMSCURL>
+        <MMSCPort></MMSCPort>
+        <MaxMMSSize></MaxMMSSize>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+    </CountryCode>
+    <!-- Reliance India SID-->
+    <CountryCode MCCMNC="4040">
+      <APNType Name="InternetAPN">
+        <Title>Reliance In</Title>
+        <APN></APN>
+        <UserName>fake</UserName>
+        <Password>fake</Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Reliance In</Title>
+        <APN></APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Reliance In</Title>
+        <APN>www</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIpv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Reliance In</Title>
+        <APN></APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIpv4</IPType>
+      </APNType>
+      <APNType Name="MMSAPN">
+        <Title>Reliance In</Title>
+        <APN></APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <WAPGatewayURL></WAPGatewayURL>
+        <WAPGatewayPort></WAPGatewayPort>
+        <MMSCURL></MMSCURL>
+        <MMSCPort></MMSCPort>
+        <MaxMMSSize></MaxMMSSize>
+        <IPType></IPType>
+      </APNType>
+    </CountryCode>
+    <!-- ATT -->
+    <CountryCode MCCMNC="310410">
+      <APNType Name="InternetAPN">
+        <Title>ATT</Title>
+        <APN>phone</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>ATT</Title>
+        <APN>phone</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>ATT</Title>
+        <APN>wap.cingular</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType></IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>ATT</Title>
+        <APN>pta</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="MMSAPN">
+        <Title>ATT</Title>
+        <APN>wap.cingular</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <WAPGatewayURL>proxy.mobile.att.net</WAPGatewayURL>
+        <WAPGatewayPort>80</WAPGatewayPort>
+        <MMSCURL>mmsc.cingular.com</MMSCURL>
+        <MMSCPort>80</MMSCPort>
+        <MaxMMSSize></MaxMMSSize>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+    </CountryCode>
+    <!-- Verizon I-->
+    <CountryCode MCCMNC="310480">
+      <APNType Name="InternetAPN">
+        <Title>Verizon</Title>
+        <APN>vzwinternet</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Verizon</Title>
+        <APN>vzwinternet</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv6</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Verizon</Title>
+        <APN>vzwinternet</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Verizon</Title>
+        <APN></APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType></IPType>
+      </APNType>
+      <APNType Name="MMSAPN">
+        <Title>Verizon</Title>
+        <APN></APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <WAPGatewayURL></WAPGatewayURL>
+        <WAPGatewayPort></WAPGatewayPort>
+        <MMSCURL></MMSCURL>
+        <MMSCPort></MMSCPort>
+        <MaxMMSSize></MaxMMSSize>
+        <IPType></IPType>
+      </APNType>
+    </CountryCode>
+    <!-- Verizon II-->
+    <CountryCode MCCMNC="311480">
+      <APNType Name="InternetAPN">
+        <Title>Verizon</Title>
+        <APN>vzwinternet</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Verizon</Title>
+        <APN>vzwinternet</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv6</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Verizon</Title>
+        <APN>vzwinternet</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Verizon</Title>
+        <APN></APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType></IPType>
+      </APNType>
+      <APNType Name="MMSAPN">
+        <Title>Verizon</Title>
+        <APN></APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <WAPGatewayURL></WAPGatewayURL>
+        <WAPGatewayPort></WAPGatewayPort>
+        <MMSCURL></MMSCURL>
+        <MMSCPort></MMSCPort>
+        <MaxMMSSize></MaxMMSSize>
+        <IPType></IPType>
+      </APNType>
+    </CountryCode>
+    <!-- Wireless One I-->
+    <CountryCode MCCMNC="3100">
+      <APNType Name="InternetAPN">
+        <Title>Wireless One IPv4</Title>
+        <APN>wirelessone.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Wireless One IPv6</Title>
+        <APN>wonev6.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv6</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Wireless One IPv4v6</Title>
+        <APN>wonev4v6.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4v6</IPType>
+      </APNType>
+      <APNType Name="MMSAPN">
+        <Title>Wireless One MMS</Title>
+        <APN>r</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <WAPGatewayURL></WAPGatewayURL>
+        <WAPGatewayPort></WAPGatewayPort>
+        <MMSCURL></MMSCURL>
+        <MMSCPort></MMSCPort>
+        <MaxMMSSize></MaxMMSSize>
+        <IPType></IPType>
+      </APNType>
+    </CountryCode>
+    <!-- Wireless One II -->
+    <CountryCode MCCMNC="3101">
+      <APNType Name="InternetAPN">
+        <Title>Wireless One IPv4</Title>
+        <APN>wirelessone.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Wireless One IPv6</Title>
+        <APN>wonev6.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv6</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>Wireless One IPv4v6</Title>
+        <APN>wonev4v6.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4v6</IPType>
+      </APNType>
+      <APNType Name="MMSAPN">
+        <Title>Wireless One MMS</Title>
+        <APN>r</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <WAPGatewayURL></WAPGatewayURL>
+        <WAPGatewayPort></WAPGatewayPort>
+        <MMSCURL></MMSCURL>
+        <MMSCPort></MMSCPort>
+        <MaxMMSSize></MaxMMSSize>
+        <IPType></IPType>
+      </APNType>
+    </CountryCode>
+    <!-- TMobile -->
+    <CountryCode MCCMNC="310260">
+      <APNType Name="InternetAPN">
+        <Title>T-Mobile</Title>
+        <APN>fast.t-mobile.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>T-Mobile</Title>
+        <APN>fast.t-mobile.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv6</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>T-Mobile</Title>
+        <APN>fast.t-mobile.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4v6</IPType>
+      </APNType>
+      <APNType Name="InternetAPN">
+        <Title>T-Mobile</Title>
+        <APN>fast.t-mobile.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <ProxyServer></ProxyServer>
+        <ProxyPort></ProxyPort>
+        <IPType>WwanIPTypeIPv4</IPType>
+      </APNType>
+      <APNType Name="MMSAPN">
+        <Title>T-Mobile</Title>
+        <APN>fast.t-mobile.com</APN>
+        <UserName></UserName>
+        <Password></Password>
+        <AuthType></AuthType>
+        <WAPGatewayURL></WAPGatewayURL>
+        <WAPGatewayPort></WAPGatewayPort>
+        <MMSCURL></MMSCURL>
+        <MMSCPort></MMSCPort>
+        <MaxMMSSize></MaxMMSSize>
+        <IPType></IPType>
+      </APNType>
+    </CountryCode>
+    </APNTable>
+</Data>

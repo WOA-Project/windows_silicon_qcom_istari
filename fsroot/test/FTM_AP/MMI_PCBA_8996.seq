@@ -1,0 +1,226 @@
+[PCBA]
+
+[FLASHLIGHT_ON]
+lib_name=qcMmiFlashlightTest8996.dll
+enable=1
+# MMI_FLASHLIGHT_ON_TEST_DISPLAY_NAME
+display_id=2032
+parameter=flash_device:lamp
+parameter=test_duration:2000
+parameter=EXIT_STATE:ON
+
+[FLASHLIGHT_OFF]
+lib_name=qcMmiFlashlightTest8996.dll
+enable=1
+# MMI_FLASHLIGHT_OFF_TEST_DISPLAY_NAME
+display_id=2033
+parameter=flash_device:lamp
+parameter=test_duration:2000
+parameter=EXIT_STATE:OFF
+
+[LED_RED_ON]
+lib_name=qcMmiRedLEDTest8996.dll
+enable=1
+# MMI_REDLED_ON_TEST_DISPLAY_NAME
+display_id=2042
+parameter=device_id:2
+parameter=test_duration:2000
+parameter=exit_state:on
+
+[LED_RED_OFF]
+lib_name=qcMmiRedLEDTest8996.dll
+enable=1
+# MMI_REDLED_OFF_TEST_DISPLAY_NAME
+display_id=2043
+parameter=device_id:2
+parameter=test_duration:2000
+parameter=exit_state:off
+
+[LED_GREEN_ON]
+lib_name=qcMmiGreenLEDTest8996.dll
+enable=1
+# MMI_GREENLED_ON_TEST_DISPLAY_NAME
+display_id=2045
+parameter=device_id:1
+parameter=test_duration:2000
+parameter=exit_state:on
+
+[LED_GREEN_OFF]
+lib_name=qcMmiGreenLEDTest8996.dll
+enable=1
+# MMI_GREENLED_OFF_TEST_DISPLAY_NAME
+display_id=2046
+parameter=device_id:1
+parameter=test_duration:2000
+parameter=exit_state:off
+
+[LED_BLUE_ON]
+lib_name=qcMmiBlueLEDTest8996.dll
+enable=1
+# MMI_BLUELED_ON_TEST_DISPLAY_NAME
+display_id=2039
+parameter=device_id:0
+parameter=test_duration:2000
+parameter=exit_state:on
+
+[LED_BLUE_OFF]
+lib_name=qcMmiBlueLEDTest8996.dll
+enable=1
+# MMI_BLUELED_OFF_TEST_DISPLAY_NAME
+display_id=2040
+parameter=device_id:0
+parameter=test_duration:2000
+parameter=exit_state:off
+
+[BATTERY]
+lib_name=qcMmiBatteryTest8996.dll
+enable=1
+# MMI_BATTERY_TEST_DISPLAY_NAME
+display_id=2007
+parameter=test_duration:30000
+parameter=min_battery_voltage:0
+run_in_back=1
+
+[HARDWARE_KEYS]
+lib_name=qcMmiKeypadTest8996.dll
+enable=1
+# MMI_HARDWARE_KEY_TEST_DISPLAY_NAME
+display_id=2008
+parameter=test_item:hardware_keys
+parameter=KEYS:volumeup,volumedown,camsnapshot,power
+parameter=test_duration:6000
+
+[SDCARD]
+lib_name=qcMmiSDTest8996.dll
+enable=1
+# MMI_SD_TEST_DISPLAY_NAME
+display_id=2010
+parameter=test_duration:3000
+run_in_back=1
+
+[CAMERA_BACK]
+lib_name=qcMmiCameraTest8996.dll
+enable=1
+# MMI_REAR_CAMERA_TEST_DISPLAY_NAME
+display_id=2011
+parameter=test_item:rear-camera
+parameter=test_duration:120000
+
+[CAMERA_FRONT]
+lib_name=qcMmiCameraTest8996.dll
+enable=1
+# MMI_FRONT_CAMERA_TEST_DISPLAY_NAME
+display_id=2012
+parameter=test_item:front-camera
+parameter=test_duration:120000
+
+[PSENSOR]
+lib_name=qcMmiPSensorTest8996.dll
+enable=1
+# MMI_PROXIMITY_TEST_DISPLAY_NAME
+display_id=2013
+parameter=test_duration:3000
+
+[GSENSOR]
+lib_name=qcMmiGSensorTest8996.dll
+enable=1
+# MMI_GYRO_TEST_DISPLAY_NAME
+display_id=2014
+parameter=test_duration:3000
+
+[LSENSOR]
+lib_name=qcMmiLSensorTest8996.dll
+enable=1
+# MMI_LIGHT_TEST_DISPLAY_NAME
+display_id=2015
+parameter=test_duration:3000
+
+[MSENSOR]
+lib_name=qcMmiMSensorTest8996.dll
+enable=1
+# MMI_MAG_TEST_DISPLAY_NAME
+display_id=2016
+parameter=test_duration:3000
+
+[ASENSOR]
+lib_name=qcMmiASensorTest8996.dll
+enable=1
+# MMI_ACCEL_TEST_DISPLAY_NAME
+display_id=2017
+parameter=test_duration:3000
+
+[AUDIO_HEADSET]
+lib_name=qcMmiAudioTest8996.dll
+enable=1
+# MMI_AUDIO_HEADSET_TEST_DISPLAY_NAME
+display_id=2018
+parameter=test_item:headset
+parameter=preset_file:audiotest.wav
+parameter=test_duration:20000
+#Volume Range is 0 to 100
+parameter=volume:80
+#Recording duration in seconds
+parameter=PCM_RECORD_DUR:5
+
+[SIMCARD]
+lib_name=qcMmiSIMTest8996.dll
+enable=1
+# MMI_SIM_TEST_DISPLAY_NAME
+display_id=2021
+run_in_back=1
+parameter=test_duration:120000
+early_init_API=SIMTestEarlyInit
+late_deinit_api=SIMTestLateDeInit
+parameter=early_init_timeout:50000
+
+[FM_FTM_ON]
+lib_name=qcMmiFMFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_FM_FTM_ON_TEST_DISPLAY_NAME
+display_id=2025
+parameter=test_item:FM_FTM_ON
+
+[FM_FTM_OFF]
+lib_name=qcMmiFMFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_FM_FTM_OFF_TEST_DISPLAY_NAME
+display_id=2026
+parameter=test_item:FM_FTM_OFF
+
+[BT_FTM_ON]
+lib_name=qcMmiBluetoothFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_BT_FTM_ON_TEST_DISPLAY_NAME
+display_id=2027
+parameter=test_item:BT_FTM_ON
+
+[BT_FTM_OFF]
+lib_name=qcMmiBluetoothFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_BT_FTM_OFF_TEST_DISPLAY_NAME
+display_id=2028
+parameter=test_item:BT_FTM_OFF
+
+[WLAN_FTM_ON]
+lib_name=qcMmiWiFiFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_WIFI_FTM_ON_TEST_DISPLAY_NAME
+display_id=2029
+parameter=test_item:WLAN_FTM_ON
+parameter=enumerator:PCI
+parameter=device_id:VEN_168C&DEV_003E
+
+[WLAN_FTM_OFF]
+lib_name=qcMmiWiFiFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_WIFI_FTM_OFF_TEST_DISPLAY_NAME
+display_id=2030
+parameter=test_item:WLAN_FTM_OFF
+parameter=enumerator:PCI
+parameter=device_id:VEN_168C&DEV_003E

@@ -1,0 +1,317 @@
+[UI]
+#Languages supported are English or Chinese
+Language=English
+
+[DISPLAY]
+lib_name=qcMmiLcdTest8996.dll
+enable=1
+# MMI_DISPLAY_TEST_DISPLAY_NAME
+display_id=2001
+parameter=bg_color:RED
+parameter=bg_color:GREEN
+parameter=bg_color:BLUE
+parameter=bg_color:WHITE
+parameter=bg_color:YELLOW
+parameter=bg_color:GRAY
+#These are not a standard images to display and kept only for internal testing purpose.
+#OEM's has to put their own standard images to test their display. Test can receive
+#any number of images and not restricted to two.
+parameter=image:DummyImage1.jpg
+parameter=image:DummyImage2.jpg
+
+[TOUCH]
+lib_name=qcMmiTouchTest8996.dll
+enable=1
+# MMI_TOUCH_TEST_DISPLAY_NAME
+display_id=2002
+parameter=touch_pattern:0
+parameter=show_tp_reset:false
+
+[TOUCH_LINE]
+lib_name=qcMmiTouchTest8996.dll
+enable=1
+# MMI_TOUCH_LINE_TEST_DISPLAY_NAME
+display_id=2003
+parameter=touch_pattern:5
+parameter=show_tp_reset:true
+
+[FLASHLIGHT]
+lib_name=qcMmiFlashlightTest8996.dll
+enable=1
+# MMI_FLASHLIGHT_TEST_DISPLAY_NAME
+display_id=2004
+parameter=flash_device:lamp
+
+[PHONECALL]
+lib_name=qcMmiPhoneCallTest8996.dll
+enable=1
+# MMI_PHONECALL_TEST_DISPLAY_NAME
+display_id=2035
+parameter=dial_number:8588455446
+
+[VIBRATOR]
+lib_name=qcMmiVibratorTest8996.dll
+enable=1
+# MMI_VIBRATOR_TEST_DISPLAY_NAME
+display_id=2005
+
+[LED_RED]
+lib_name=qcMmiRedLEDTest8996.dll
+enable=1
+# MMI_REDLED_TEST_DISPLAY_NAME
+display_id=2041
+parameter=device_id:2
+
+[LED_GREEN]
+lib_name=qcMmiGreenLEDTest8996.dll
+enable=1
+# MMI_GREENLED_TEST_DISPLAY_NAME
+display_id=2044
+parameter=device_id:1
+
+[LED_BLUE]
+lib_name=qcMmiBlueLEDTest8996.dll
+enable=1
+# MMI_BLUELED_TEST_DISPLAY_NAME
+display_id=2038
+parameter=device_id:0
+
+[BACKLIGHT]
+lib_name=qcMmiBacklightTest8996.dll
+enable=1
+# MMI_BACKLIGHT_TEST_DISPLAY_NAME
+display_id=2006
+parameter=lpg_channel:0
+parameter=bg_color:WHITE
+
+[BATTERY]
+lib_name=qcMmiBatteryTest8996.dll
+enable=1
+# MMI_BACKLIGHT_TEST_DISPLAY_NAME
+display_id=2007
+parameter=min_battery_voltage:0
+run_in_back=1
+
+[HARDWARE_KEYS]
+lib_name=qcMmiKeypadTest8996.dll
+enable=1
+# MMI_HARDWARE_KEY_TEST_DISPLAY_NAME
+display_id=2008
+parameter=test_item:hardware_keys
+parameter=KEYS:volumeup,volumedown,camsnapshot,power
+
+[SOFT_KEYS]
+lib_name=qcMmiKeypadTest8996.dll
+enable=0
+# MMI_SOFT_KEY_TEST_DISPLAY_NAME
+display_id=2009
+parameter=test_item:soft_keys
+parameter=KEYS:back,search,home
+parameter=touchkeys:true
+
+[SDCARD]
+lib_name=qcMmiSDTest8996.dll
+enable=1
+# MMI_SD_TEST_DISPLAY_NAME
+display_id=2010
+run_in_back=1
+
+[CAMERA_BACK]
+lib_name=qcMmiCameraTest8996.dll
+enable=1
+# MMI_REAR_CAMERA_TEST_DISPLAY_NAME
+display_id=2011
+parameter=test_item:rear-camera
+
+[CAMERA_FRONT]
+lib_name=qcMmiCameraTest8996.dll
+enable=1
+# MMI_FRONT_CAMERA_TEST_DISPLAY_NAME
+display_id=2012
+parameter=test_item:front-camera
+
+[PSENSOR]
+lib_name=qcMmiPSensorTest8996.dll
+enable=1
+# MMI_PROXIMITY_TEST_DISPLAY_NAME
+display_id=2013
+
+[GSENSOR]
+lib_name=qcMmiGSensorTest8996.dll
+enable=1
+# MMI_GYRO_TEST_DISPLAY_NAME
+display_id=2014
+
+[LSENSOR]
+lib_name=qcMmiLSensorTest8996.dll
+enable=1
+# MMI_LIGHT_TEST_DISPLAY_NAME
+display_id=2015
+
+[MSENSOR]
+lib_name=qcMmiMSensorTest8996.dll
+enable=1
+# MMI_MAG_TEST_DISPLAY_NAME
+display_id=2016
+
+[ASENSOR]
+lib_name=qcMmiASensorTest8996.dll
+enable=1
+# MMI_ACCEL_TEST_DISPLAY_NAME
+display_id=2017
+
+[AUDIO_HEADSET]
+lib_name=qcMmiAudioTest8996.dll
+enable=1
+# MMI_AUDIO_HEADSET_TEST_DISPLAY_NAME
+display_id=2018
+parameter=test_item:headset
+parameter=preset_file:audiotest.wav
+#Volume Range is 0 to 100
+parameter=volume:80
+#Recording duration in seconds
+parameter=PCM_RECORD_DUR:5
+
+[AUDIO_HANDSET]
+lib_name=qcMmiAudioTest8996.dll
+enable=1
+# MMI_AUDIO_HANDSET_DISPLAY_NAME
+display_id=2019
+parameter=test_item:handset
+parameter=preset_file:audiotest_mono.wav
+#Volume Range is 0 to 100
+parameter=volume:80
+#Recording duration in seconds
+parameter=PCM_RECORD_DUR:5
+
+[AUDIO_SPEAKER]
+lib_name=qcMmiAudioTest8996.dll
+enable=1
+# MMI_AUDIO_SPEAKER_TEST_DISPLAY_NAME
+display_id=2020
+parameter=test_item:speaker
+parameter=preset_file:audiotest.wav
+#Volume Range is 0 to 100
+parameter=volume:80
+#Recording duration in seconds
+parameter=PCM_RECORD_DUR:5
+
+[AUDIO_MICROPHONE_ARRAY]
+lib_name=qcMmiAudioTest8996.dll
+enable=1
+# MMI_AUDIO_MICARRAY_TEST_DISPLAY_NAME
+display_id=2037
+parameter=test_item:micarray
+#Volume Range is 0 to 100
+parameter=volume:100
+#Recording duration in seconds
+parameter=PCM_RECORD_DUR:5
+
+[SIMCARD]
+lib_name=qcMmiSIMTest8996.dll
+enable=1
+# MMI_SIM_TEST_DISPLAY_NAME
+display_id=2021
+run_in_back=1
+early_init_API=SIMTestEarlyInit
+late_deinit_api=SIMTestLateDeInit
+parameter=early_init_timeout:50000
+
+[BT]
+lib_name=qcMmiBluetoothTest8996.dll
+enable=1
+# MMI_BLUETOOTH_TEST_DISPLAY_NAME
+display_id=2022
+run_in_back=1
+early_init_API=BTTestEarlyInit
+late_deinit_api=BTTestLateDeInit
+parameter=early_init_timeout:50000
+
+[WIFI]
+lib_name=qcMmiWIFITest8996.dll
+enable=1
+# MMI_WIFI_TEST_DISPLAY_NAME
+display_id=2023
+run_in_back=1
+early_init_API=WiFiTestEarlyInit
+late_deinit_api=WiFiTestLateDeInit
+parameter=early_init_timeout:50000
+#Parameters commented out as these APNs are QCOM specifc and OEMs will not have in their environment
+#parameter=AP_Name_1:Hydra
+#parameter=AP_RSSI_Threshold_1:-60
+#parameter=AP_Name_2:QGuest
+#parameter=AP_RSSI_Threshold_02:-60
+
+[GPS]
+lib_name=qcMmiGPSTest8996.dll
+enable=1
+# MMI_GPS_TEST_DISPLAY_NAME
+display_id=2024
+run_in_back=1
+early_init_API=GPSTestEarlyInit
+late_deinit_api=GPSTestLateDeInit
+parameter=early_init_timeout:50000
+parameter=good_SNR_threshold:25
+parameter=min_satellites_with_good_SNR:4
+
+[FM_FTM_ON]
+lib_name=qcMmiFMFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_FTM_ON_TEST_DISPLAY_NAME
+display_id=2025
+parameter=test_item:FM_FTM_ON
+
+[FM_FTM_OFF]
+lib_name=qcMmiFMFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_FTM_OFF_TEST_DISPLAY_NAME
+display_id=2026
+parameter=test_item:FM_FTM_OFF
+
+[BT_FTM_ON]
+lib_name=qcMmiBluetoothFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_BT_FTM_ON_TEST_DISPLAY_NAME
+display_id=2027
+parameter=test_item:BT_FTM_ON
+
+[BT_FTM_OFF]
+lib_name=qcMmiBluetoothFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_BT_FTM_OFF_TEST_DISPLAY_NAME
+display_id=2028
+parameter=test_item:BT_FTM_OFF
+
+[WLAN_FTM_ON]
+lib_name=qcMmiWiFiFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_WIFI_FTM_ON_TEST_DISPLAY_NAME
+display_id=2029
+parameter=test_item:WLAN_FTM_ON
+parameter=enumerator:PCI
+parameter=device_id:VEN_168C&DEV_003E
+
+[WLAN_FTM_OFF]
+lib_name=qcMmiWiFiFTMTest8996.dll
+enable=1
+hide_in_UI=1
+# MMI_WIFI_FTM_OFF_TEST_DISPLAY_NAME
+display_id=2030
+parameter=test_item:WLAN_FTM_OFF
+parameter=enumerator:PCI
+parameter=device_id:VEN_168C&DEV_003E
+
+[FM]
+lib_name=qcMmiFMTest8996.dll
+enable=1
+# MMI_FM_TEST_DISPLAY_NAME
+display_id=2031
+run_in_back=1
+parameter=freq:98100
+parameter=rssi_min:-80
+parameter=rssi_max:-75
